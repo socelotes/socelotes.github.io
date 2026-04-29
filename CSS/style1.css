@@ -1,0 +1,37 @@
+.orange{
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    font-style: normal;
+    margin: 10px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #ff751f;
+    margin-bottom: -20px;
+}
+
+header{
+    background-color:#ff751f;
+    margin: 7px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    color: #ff751f;
+}
