@@ -71,8 +71,8 @@ header{
     font-weight: 100;
     font-style: normal;
     font-size: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .white{
     color: whitesmoke;
@@ -86,7 +86,7 @@ li{
 }
 
 .cardblack{
-    width: 900px;
+    width: 850px;
     height: 400px;
     background-color: #000000;
     border: 15px solid ;
@@ -155,11 +155,19 @@ footer{
     align-items: center;
 }
 
+.hola{
+    display: none;
+}
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1100px) {
 
 body{
     background-color: wheat;
+}
+
+.hero{
+    height: 300px;
 }
 
 .pwhite {
@@ -170,10 +178,47 @@ body{
     display: none;
 }
     
-    .orange{
-        font-size: 40px;
+.orange{
+     font-size: 40px;
+  }
+li{
+     display: block;    
+}
+
+    .cardsabor {
+    width: 270px;
+    margin-left: 5px;
+    margin-right: 5px;
     }
-    li{
-            display: block;
+
+        .cardsabor2 {
+    width: 270px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+}
+
+
+@media screen and (max-width: 862px) {
+
+
+    .cardsabor {
+    width: 210px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+        .cardsabor2 {
+    width: 210px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+    .hola{
+        display: block;
+    }
+    .chau{
+        display: none;
     }
 }
