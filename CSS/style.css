@@ -264,3 +264,41 @@ li{
 }
 
  }
+
+ @media screen and (max-width: 391px) {
+
+.hero{
+    height: 200px;
+}
+
+    .cardsabor {
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+
+        .cardsabor2 {
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: -13px;
+        margin-bottom: 5px;
+    }
+    .pwhite{
+        font-size: 20px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+ h3{
+    display: none;
+ }
+
+}
+
+ 
