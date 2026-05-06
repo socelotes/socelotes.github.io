@@ -207,6 +207,7 @@ li{
     width: 210px;
     margin-left: 5px;
     margin-right: 5px;
+    border: 5px;
     }
 
         .cardsabor2 {
@@ -222,3 +223,44 @@ li{
         display: none;
     }
 }
+
+
+@media screen and (max-width: 500px) {
+
+.hero{
+    height: 200px;
+}
+
+    .cardsabor {
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+        .cardsabor2 {
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    .pwhite{
+        font-size: 20px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+ h3{
+    display: none;
+ }
+
+ .hola{
+    display:none;
+ }
+
+ .cardblack {
+    height: 350px;
+}
+
+ }
